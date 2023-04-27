@@ -1,0 +1,29 @@
+{
+       "resources": [
+        {
+            "name": "storage-account",
+            "properties": {
+                "cloud": "Azure",
+                "resourceType": "storage-account",
+                "dependsOn": "false",
+                "resourceGroupName": "",
+                "accountTier": "",
+                "accountRepliationType": "",
+                "minTlsVersion": "",
+                "enableHttpsTrafficOnly": "true",
+                "blobProperties": {
+                    "deleteRetentionPolicy": {
+                        "days": ""
+                    }
+                },
+                "allowNestedItemsToBePublic": "false",
+                "networkRules": {
+                    "defaultAction": "",
+                    "virtualNetworkRules": []
+                },
+                "tags": {}
+            }
+        }
+
+    ]
+}
